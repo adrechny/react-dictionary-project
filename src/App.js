@@ -10,7 +10,14 @@ export default function App() {
           <Dictionary defaultKeyword="winter" />
         </main>
         <footer className="App-footer">
-          Coded by Allison Drechny and open-sourced on GitHub
+          Coded by Allison Drechny and open-sourced on{" "}
+          <a
+            href="https://github.com/adrechny/react-dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
         </footer>
       </div>
     </div>
